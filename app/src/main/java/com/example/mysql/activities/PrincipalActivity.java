@@ -46,9 +46,6 @@ public class PrincipalActivity extends AppCompatActivity {
 
     private void clearCredentials() {
         SharedPreferences sharedPreferences = getSharedPreferences("UserLogin", MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("usuario", "");
-        editor.putString("password", "");
-        editor.apply();
+        sharedPreferences.edit().clear().apply();
     }
 }
