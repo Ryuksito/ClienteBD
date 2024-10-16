@@ -53,6 +53,13 @@
                 android:inputType="textPassword"
                 android:paddingLeft="5dp" />
 
+
+            <Button
+                android:id="@+id/buttonRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recordar Usuario"/>
+
             <Button
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
