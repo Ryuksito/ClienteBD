@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MySQL"
         tools:targetApi="31">
         <activity
+            android:name=".activities.Producto"
+            android:exported="false" />
+        <activity
             android:name=".activities.Presentation"
             android:exported="false" />
         <activity
